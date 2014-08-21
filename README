@@ -1,0 +1,45 @@
+especificación del filenaming
+
+/
+1_project_specs.pdf		especificacion inicial
+9_project.avi		        renderizado de git automatizado a traves de optimus.
+README
+
+hardware_XX/doc/
+
+1_hw_schematic_XX.pdf		doc de esquematico
+2_hw_schematic_clean_XX.pdf	esquemático a secas. A4, landscape.
+3_hw_gerbers_XX.zip             archivos de fabricación
+4_hw_assembly_XX.pdf		instrucciones y recomendaciones de armado
+5_hw_mechanical_XX.pdf          doc de la parte mecánica
+6_hw_wiring_XX.pdf		doc de cableado, y conectorizado
+9_hw_final_specs_XX.pdf		rangos operativos de los materiales y resultados de las pruebas de estrés.
+
+software_XX/doc/
+
+doxygen/
+1_sw_doc.pdf			doc general
+2_sw_bin.zip              	binarios en caso de no entregar el código 
+3_sw.zip			lo mínimo funcional, sin binarios. make clean debebe limpiar todo. make debe compilar, e incluso desempaquetar binarios externos
+4_sw_testing.zip		scripts de para testear software
+
+
+Forma de trabajo:
+
+hardware:
+
+kicad o altium.
+esquemático: flow de izq a derecha. Entradas en la izq, salidas a la derecha. Modularizar todo lo posible, hay que reutilizar todo, y cada bloque no debe ser
+demasiado complejo.
+Abusar de comentarios, incluso a nivel de layout. Incluir links a hojas de datos y escribir los cálculos en el mismo esquemático. Tener las formas de onda
+como imagen en embebida sería ideal.
+
+layout: básicamente, debe tener mi aprobación. Incluir el logo del grupo.
+
+software:
+
+JSF compliant. Joint Fighter estipula normas para el código. Por ej, los .c/.cpp no deben tener mas de 200 líneas, ni mas de 120 caracteres de ancho.
+Documentado con doxygen
+Solo usamos gnu compiler. Preferenteme con makefiles.
+En la PC, 100% multiplataforma. En micros lo mas portable posible.
+
