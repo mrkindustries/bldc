@@ -29,12 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:mrk-industries
 LIBS:BLDC_4-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 4 6
 Title "BLDC Driver 4.5"
 Date "22 Aug 2014"
 Rev "4.5"
@@ -278,11 +279,9 @@ $EndComp
 NoConn ~ 4500 6050
 NoConn ~ 4500 5850
 NoConn ~ 4500 5350
-NoConn ~ 4500 3750
 NoConn ~ 4500 3250
 NoConn ~ 4500 3150
 NoConn ~ 4500 5450
-NoConn ~ 4500 5650
 $Comp
 L GND #PWR055
 U 1 1 53F75856
@@ -597,7 +596,7 @@ Text HLabel 4500 3450 0    60   Input ~ 0
 HALL_1
 Text HLabel 4500 3550 0    60   Input ~ 0
 HALL_2
-Text HLabel 4500 3650 0    60   Input ~ 0
+Text HLabel 4500 5650 0    60   Input ~ 0
 HALL_3
 Text HLabel 4500 3850 0    60   Output ~ 0
 RX_SCL
@@ -4501,4 +4500,8 @@ EndData
 $EndBitmap
 Text Notes 9300 1700 0    40   ~ 0
 Bypass, place next to VDD pins
+Text HLabel 4500 3650 0    60   Input ~ 0
+CAN_RX
+Text HLabel 4500 3750 0    60   Output ~ 0
+CAN_TX
 $EndSCHEMATC
