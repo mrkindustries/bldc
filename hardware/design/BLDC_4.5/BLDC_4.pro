@@ -1,4 +1,4 @@
-update=Fri 22 Aug 2014 02:23:07 PM ART
+update=Mon 25 Aug 2014 12:57:30 PM ART
 version=1
 last_client=kicad
 [general]
@@ -44,22 +44,11 @@ LibName12=led
 LibName13=dip_sockets
 LibName14=pga_sockets
 LibName15=valves
-LibName16=crf_1
-LibName17=w_smd_inductors
-LibName18=w_smd_diode
+LibName16=w_smd_inductors
+LibName17=w_smd_diode
 [eeschema]
 version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
-LibDir=
-NetFmtName=PcbnewAdvanced
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=40
+LibDir=Libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -91,5 +80,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=crf_1
-LibName32=/home/marcos/electronica/Mrk industries/mrk-industries
+LibName31=/home/marcos/electronica/Mrk industries/mrk-industries
+LibName32=crf_1
