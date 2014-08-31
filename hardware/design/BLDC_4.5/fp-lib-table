@@ -2,4 +2,5 @@
   (lib (name CRF1)(type Legacy)(uri "$(KIPRJMOD)/Libraries/crf_1.mod")(options "")(descr ""))
   (lib (name w_smd_inductors)(type Legacy)(uri "$(KIPRJMOD)/Libraries/w_smd_inductors.mod")(options "")(descr ""))
   (lib (name w_smd_cap)(type Legacy)(uri "$(KIPRJMOD)/Libraries/w_smd_cap.mod")(options "")(descr ""))
+  (lib (name "JST conn")(type Legacy)(uri "$(KIPRJMOD)/Libraries/w_conn_jst-ph.mod")(options "")(descr ""))
 )
