@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-24 BZR 5093)-product   date = Tue 26 Aug 2014 01:44:39 PM ART
+Cmp-Mod V01 Created by Cvpcb (2014-08-31 BZR 5107)-product   date = tis  2 sep 2014 14:04:20
 
 BeginCmp
 TimeStamp = /504F83BE/523435A0;
@@ -326,7 +326,7 @@ BeginCmp
 TimeStamp = /53FFB6E1/53F59FA3;
 Reference = C401;
 ValeurCmp = 100nF;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
 BeginCmp
@@ -428,7 +428,7 @@ IdModule  = CRF1:1PAD_4x5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /53FB601D;
+TimeStamp = /540360D1;
 Reference = P101;
 ValeurCmp = CANBUS;
 IdModule  = CRF1:pinhead-1X03;
@@ -864,7 +864,7 @@ EndCmp
 BeginCmp
 TimeStamp = /522DA102;
 Reference = X1;
-ValeurCmp = MINI-USB-SCHIELD-32005-201;
+ValeurCmp = MINI-USB-SHIELD-32005-201;
 IdModule  = CRF1:con-cypressindustries-32005-201;
 EndCmp
 
