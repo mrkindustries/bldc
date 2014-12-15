@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = lör 27 sep 2014 13:12:00
+Cmp-Mod V01 Created by Cvpcb (2014-08-31 BZR 5107)-product   date = mån 15 dec 2014 12:54:57
 
 BeginCmp
 TimeStamp = /504F83BE/523435A0;
@@ -136,7 +136,7 @@ EndCmp
 BeginCmp
 TimeStamp = /504F83BE/504FC446;
 Reference = C20;
-ValeurCmp = 1u;
+ValeurCmp = 2.2u;
 IdModule  = SMD_Packages:SMD-0603_c;
 EndCmp
 
@@ -157,7 +157,7 @@ EndCmp
 BeginCmp
 TimeStamp = /504F83BE/504FC64E;
 Reference = C23;
-ValeurCmp = 1u;
+ValeurCmp = 2.2u;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -283,7 +283,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53FFB3E2/5426DADD;
 Reference = C41;
-ValeurCmp = 1u;
+ValeurCmp = 2.2u;
 IdModule  = SMD_Packages:SMD-0603_c;
 EndCmp
 
@@ -318,14 +318,14 @@ EndCmp
 BeginCmp
 TimeStamp = /504F83BE/51094BCE;
 Reference = C52;
-ValeurCmp = 1u;
+ValeurCmp = 2.2u;
 IdModule  = SMD_Packages:SMD-0603_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /53FFB6E1/53F59FA3;
 Reference = C401;
-ValeurCmp = 1u;
+ValeurCmp = 2.2u;
 IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
@@ -355,6 +355,13 @@ TimeStamp = /504F83BE/504F8F01;
 Reference = D4;
 ValeurCmp = DIODESCH;
 IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /504F83BE/548EDCBC;
+Reference = D5;
+ValeurCmp = TVS 5V;
+IdModule  = w_smd_diode:do214ac;
 EndCmp
 
 BeginCmp
