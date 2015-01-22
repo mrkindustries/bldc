@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/benjamin/Dropbox/Stuff/KiCad_2014/bldc-hardware/design/BLDC_4.sch)
-    (date "mån 15 dec 2014 12:24:15")
+    (date "tor 22 jan 2015 10:18:59")
     (tool "Eeschema (2014-08-31 BZR 5107)-product"))
   (components
     (comp (ref P1)
@@ -41,7 +41,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 522DA0D4))
     (comp (ref R3)
-      (value 33k)
+      (value 39k)
       (footprint SMD_Packages:SMD-0603_r)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -161,13 +161,13 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53F93D66))
     (comp (ref R46)
-      (value 33k)
+      (value 39k)
       (footprint SMD_Packages:SMD-0603_r)
       (libsource (lib device) (part R))
       (sheetpath (names "/Power MOSFETS/") (tstamps /53F826DC/))
       (tstamp 53F8E60B))
     (comp (ref R30)
-      (value 33k)
+      (value 39k)
       (footprint SMD_Packages:SMD-0603_r)
       (libsource (lib device) (part R))
       (sheetpath (names "/Power MOSFETS/") (tstamps /53F826DC/))
@@ -245,7 +245,7 @@
       (sheetpath (names "/Power MOSFETS/") (tstamps /53F826DC/))
       (tstamp 53F8E68F))
     (comp (ref R36)
-      (value 33k)
+      (value 39k)
       (footprint SMD_Packages:SMD-0603_r)
       (libsource (lib device) (part R))
       (sheetpath (names "/Power MOSFETS/") (tstamps /53F826DC/))
@@ -463,7 +463,7 @@
       (sheetpath (names "/Mosfet driver/") (tstamps /504F83BE/))
       (tstamp 504F8F01))
     (comp (ref R23)
-      (value 33k)
+      (value 39k)
       (footprint SMD_Packages:SMD-0603_r)
       (libsource (lib device) (part R))
       (sheetpath (names "/Mosfet driver/") (tstamps /504F83BE/))
@@ -481,13 +481,13 @@
       (sheetpath (names "/Mosfet driver/") (tstamps /504F83BE/))
       (tstamp 504F8F93))
     (comp (ref R26)
-      (value 33k)
+      (value 39k)
       (footprint SMD_Packages:SMD-0603_r)
       (libsource (lib device) (part R))
       (sheetpath (names "/Mosfet driver/") (tstamps /504F83BE/))
       (tstamp 504F8F99))
     (comp (ref R32)
-      (value 33k)
+      (value 39k)
       (footprint SMD_Packages:SMD-0603_r)
       (libsource (lib device) (part R))
       (sheetpath (names "/Mosfet driver/") (tstamps /504F83BE/))
@@ -746,7 +746,7 @@
       (tstamp 53E7AFAD))
     (comp (ref D5)
       (value "TVS 5V")
-      (footprint w_smd_diode:sod123)
+      (footprint w_smd_diode:do214ac)
       (libsource (lib device) (part DIODE))
       (sheetpath (names "/Mosfet driver/") (tstamps /504F83BE/))
       (tstamp 548EDCBC)))
@@ -763,6 +763,69 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CP1)
+      (description "Condensateur polarise")
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CRYSTAL_SMD)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL_SMD))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name case) (type passive))))
+    (libpart (lib device) (part DIODE)
+      (description "Diode simple")
+      (footprints
+        (fp D?)
+        (fp S*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODE))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part DIODESCH)
+      (description "Diode schottky")
+      (footprints
+        (fp D?)
+        (fp S*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODESCH))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part INDUCTOR)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) INDUCTOR))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
     (libpart (lib device) (part MOS_N)
       (aliases
         (alias MOSFET_N))
@@ -788,21 +851,6 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
     (libpart (lib regul) (part NCP1117ST50T3G)
       (aliases
         (alias NCP1117ST12T3G)
@@ -823,54 +871,6 @@
         (pin (num 1) (name GND) (type power_in))
         (pin (num 2) (name VO) (type power_out))
         (pin (num 3) (name VI) (type power_in))))
-    (libpart (lib device) (part CRYSTAL_SMD)
-      (fields
-        (field (name Reference) X)
-        (field (name Value) CRYSTAL_SMD))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name case) (type passive))))
-    (libpart (lib device) (part INDUCTOR)
-      (fields
-        (field (name Reference) L)
-        (field (name Value) INDUCTOR))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part DIODE)
-      (description "Diode simple")
-      (footprints
-        (fp D?)
-        (fp S*))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) DIODE))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
-    (libpart (lib device) (part DIODESCH)
-      (description "Diode schottky")
-      (footprints
-        (fp D?)
-        (fp S*))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) DIODESCH))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
-    (libpart (lib device) (part CP1)
-      (description "Condensateur polarise")
-      (footprints
-        (fp CP*)
-        (fp SM*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) CP1))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib interface) (part MCP2551-I/SN)
       (description "MCP2551-I/SN, High-Speed CAN Transceiver, SO8")
       (docs http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf)
@@ -1085,10 +1085,10 @@
         (pin (num 5) (name 5) (type passive))
         (pin (num 6) (name 6) (type passive)))))
   (libraries
-    (library (logical regul)
-      (uri /usr/local/share/kicad/library/regul.lib))
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
+    (library (logical regul)
+      (uri /usr/local/share/kicad/library/regul.lib))
     (library (logical interface)
       (uri /usr/local/share/kicad/library/interface.lib))
     (library (logical crf_1)
