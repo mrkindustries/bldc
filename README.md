@@ -9,3 +9,4 @@ https://docs.google.com/spreadsheet/ccc?key=0AnvZ-ouEB058dGpzaDl4MUxNM3NxZ1BzTWN
 Have a look at this post for a tutorial on how to get started:
 http://vedder.se/2015/01/vesc-open-source-esc/
 
+VESC Hardware is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
