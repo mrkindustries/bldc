@@ -1,10 +1,11 @@
 bldc-hardware
 =============
 
-This the Hardware for my open source custom ESC. This is a forked repository from mrkindustries, who made many improvements to my original hardware design.
+This the Hardware for my open source custom ESC.
 
-Here is a BOM on google drive that I try to keep up to date:
-https://docs.google.com/spreadsheet/ccc?key=0AnvZ-ouEB058dGpzaDl4MUxNM3NxZ1BzTWNZZ1RhRUE&usp=sharing
+![alt tag](https://github.com/vedderb/bldc-hardware/raw/master/design/PNGs/3D_front.png)
+
+Update: The BOM is no longer available on google docs, it is included in the design folder as an .ods file.
 
 Have a look at this post for a tutorial on how to get started:
 http://vedder.se/2015/01/vesc-open-source-esc/
