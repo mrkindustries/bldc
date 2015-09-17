@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:BLDC_4-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,49 +32,49 @@ LIBS:contrib
 LIBS:valves
 LIBS:crf_1
 LIBS:BLDC_4-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
-Title "NTC resistor temperature sensor"
-Date "27 sep 2014"
-Rev ""
-Comp "Mrk Industries"
+Title "BLDC Driver 4.8"
+Date "21 aug 2015"
+Rev "4.8"
+Comp "Benjamin Vedder"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R1
+L R-RESCUE-BLDC_4 R1
 U 1 1 5426DA2F
 P 4400 3400
 F 0 "R1" V 4480 3400 40  0000 C CNN
 F 1 "NTC 10k" V 4407 3401 40  0000 C CNN
-F 2 "SMD_Packages:SMD-0603_r" V 4330 3400 30  0001 C CNN
+F 2 "CRF1:SMD-0603_r" V 4330 3400 30  0001 C CNN
 F 3 "" H 4400 3400 30  0000 C CNN
 	1    4400 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-BLDC_4 R2
 U 1 1 5426DAA6
 P 4400 4100
 F 0 "R2" V 4480 4100 40  0000 C CNN
 F 1 "10k" V 4407 4101 40  0000 C CNN
-F 2 "SMD_Packages:SMD-0603_r" V 4330 4100 30  0001 C CNN
+F 2 "CRF1:SMD-0603_r" V 4330 4100 30  0001 C CNN
 F 3 "" H 4400 4100 30  0000 C CNN
 	1    4400 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C41
+L C-RESCUE-BLDC_4 C41
 U 1 1 5426DADD
 P 4150 4100
 F 0 "C41" H 4150 4200 40  0000 L CNN
 F 1 "2.2u" H 4156 4015 40  0000 L CNN
-F 2 "SMD_Packages:SMD-0603_c" H 4188 3950 30  0001 C CNN
+F 2 "CRF1:SMD-0603_c" H 4188 3950 30  0001 C CNN
 F 3 "" H 4150 4100 60  0000 C CNN
 	1    4150 4100
 	1    0    0    -1  
@@ -90,7 +91,7 @@ F 3 "" H 4400 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L GND-RESCUE-BLDC_4 #PWR024
 U 1 1 5426DB25
 P 4400 4600
 F 0 "#PWR024" H 4400 4600 30  0001 C CNN
