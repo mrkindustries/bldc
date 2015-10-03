@@ -212,7 +212,6 @@ NoConn ~ 7000 1850
 NoConn ~ 4500 6050
 NoConn ~ 4500 5850
 NoConn ~ 4500 5350
-NoConn ~ 4500 3150
 NoConn ~ 4500 5450
 $Comp
 L GND-RESCUE-BLDC_4 #PWR042
@@ -504,7 +503,7 @@ HALL_2
 Text HLabel 4500 5650 0    60   Input ~ 0
 HALL_3
 Text HLabel 4500 3850 0    60   Output ~ 0
-RX_SCL
+RX_SCL_MOSI
 Text HLabel 4500 3950 0    60   3State ~ 0
 TX_SDA
 Text HLabel 4500 4550 0    60   Input ~ 0
@@ -515,12 +514,12 @@ Text HLabel 4500 4250 0    60   Output ~ 0
 L2
 Text HLabel 4500 4350 0    60   Output ~ 0
 L1
-Text HLabel 4500 5050 0    60   Input ~ 0
-ADC_EXT
+Text HLabel 4500 2250 0    60   Input ~ 0
+SCK_ADC_EXT
 Text HLabel 4500 5150 0    60   3State ~ 0
 TX_SDA
 Text HLabel 4500 5250 0    60   Output ~ 0
-RX_SCL
+RX_SCL_MOSI
 Text HLabel 4500 5750 0    60   Input ~ 0
 FAULT
 Text HLabel 4500 2550 0    60   Output ~ 0
@@ -535,9 +534,9 @@ Text HLabel 4500 1850 0    60   Input ~ 0
 SENS2
 Text HLabel 4500 1950 0    60   Input ~ 0
 SENS1
-Text HLabel 4500 2350 0    60   Input ~ 0
+Text HLabel 4500 3250 0    60   Input ~ 0
 BR_SO1
-Text HLabel 4500 2250 0    60   Input ~ 0
+Text HLabel 4500 3150 0    60   Input ~ 0
 BR_SO2
 Text HLabel 4500 4750 0    60   Input ~ 0
 AN_IN
@@ -4407,7 +4406,7 @@ Text HLabel 4500 3650 0    60   Input ~ 0
 CAN_RX
 Text HLabel 4500 3750 0    60   Output ~ 0
 CAN_TX
-Text HLabel 4500 2450 0    60   Output ~ 0
+Text HLabel 4500 5050 0    60   Output ~ 0
 LED_RED
 Text HLabel 4500 4950 0    60   Output ~ 0
 LED_GREEN
@@ -4436,6 +4435,8 @@ F 3 "" H 7750 2150 60  0001 C CNN
 $EndComp
 Text HLabel 4500 2150 0    60   Input ~ 0
 ADC_TEMP
-Text HLabel 4500 3250 0    60   Input ~ 0
-ADC_EXT2
+Text HLabel 4500 2350 0    60   Input ~ 0
+MISO_ADC_EXT2
+Text HLabel 4500 2450 0    60   Output ~ 0
+RX_SCL_MOSI
 $EndSCHEMATC
