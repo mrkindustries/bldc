@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -37,9 +36,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
-Title "BLDC Driver 4.8"
+Title "BLDC Driver 4.10"
 Date "21 aug 2015"
-Rev "4.8"
+Rev "4.10"
 Comp "Benjamin Vedder"
 Comment1 ""
 Comment2 ""
@@ -326,7 +325,6 @@ F 3 "" H 7950 3100 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 7000 3300
-NoConn ~ 4500 2050
 NoConn ~ 4500 4650
 NoConn ~ 4500 4850
 $Comp
@@ -505,7 +503,7 @@ HALL_3
 Text HLabel 4500 3850 0    60   Output ~ 0
 RX_SCL_MOSI
 Text HLabel 4500 3950 0    60   3State ~ 0
-TX_SDA
+TX_SDA_NSS
 Text HLabel 4500 4550 0    60   Input ~ 0
 TEMP_MOTOR
 Text HLabel 4500 4150 0    60   Output ~ 0
@@ -517,7 +515,7 @@ L1
 Text HLabel 4500 2250 0    60   Input ~ 0
 SCK_ADC_EXT
 Text HLabel 4500 5150 0    60   3State ~ 0
-TX_SDA
+TX_SDA_NSS
 Text HLabel 4500 5250 0    60   Output ~ 0
 RX_SCL_MOSI
 Text HLabel 4500 5750 0    60   Input ~ 0
@@ -4433,10 +4431,12 @@ F 3 "" H 7750 2150 60  0001 C CNN
 	1    7750 2150
 	1    0    0    -1  
 $EndComp
-Text HLabel 4500 2150 0    60   Input ~ 0
-ADC_TEMP
 Text HLabel 4500 2350 0    60   Input ~ 0
 MISO_ADC_EXT2
 Text HLabel 4500 2450 0    60   Output ~ 0
 RX_SCL_MOSI
+Text HLabel 4500 2050 0    60   Input ~ 0
+ADC_TEMP
+Text HLabel 4500 2150 0    60   3State ~ 0
+TX_SDA_NSS
 $EndSCHEMATC

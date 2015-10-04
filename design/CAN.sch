@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -37,9 +36,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
-Title "BLDC Driver 4.8"
+Title "BLDC Driver 4.10"
 Date "21 aug 2015"
-Rev "4.8"
+Rev "4.10"
 Comp "Benjamin Vedder"
 Comment1 ""
 Comment2 ""
