@@ -36,9 +36,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
-Title "BLDC Driver 4.10"
+Title "BLDC Driver 4.11"
 Date "21 aug 2015"
-Rev "4.10"
+Rev "4.11"
 Comp "Benjamin Vedder"
 Comment1 ""
 Comment2 ""
