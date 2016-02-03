@@ -1,5 +1,5 @@
-### Module positions - created on tor  3 dec 2015 10:22:44 ###
-### Printed by Pcbnew version kicad (2015-09-15 BZR 6201)-product
+### Module positions - created on ons  3 feb 2016 15:51:15 ###
+### Printed by Pcbnew version kicad (2015-08-21 BZR 6112)-product
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref    Val                  Package         PosX       PosY        Rot     Side
@@ -14,10 +14,11 @@ C14      2.2u             SMD-0603_c         96.0120  -124.8410     270.0    bot
 C15      15p              SMD-0603_c         97.5360  -130.8100       0.0    bottom
 C16      2.2u             SMD-0603_c        107.6000  -126.0000      90.0    bottom
 C17      2.2u             SMD-0603_c         97.6630  -124.8410      90.0    bottom
-C18      2.2u             SMD-0603_c        100.9650  -120.1420       0.0    bottom
+C18      2.2u             SMD-0603_c        100.9650  -121.2850       0.0    bottom
 C20      2.2u             SMD-0603_c        105.9180  -122.8090      90.0    bottom
 C24      2.2u             SMD-0603_c         85.0900  -122.9360      90.0    bottom
 C25      100u             c_tant_B           80.3910  -123.6980     270.0    bottom
+C26      2.2u             SMD-0603_c        100.9650  -119.8880      -0.0    bottom
 C31      2.2u             SMD-0603_c        104.0130  -133.8580       0.0    bottom
 C32      100n             SMD-0603_c         94.4880  -135.7630     180.0    bottom
 C33      100u             c_tant_B           83.0000  -118.3000      90.0    bottom

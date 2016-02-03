@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 4 7
 Title "BLDC Driver 4.11"
 Date "21 aug 2015"
-Rev "4.11"
+Rev "4.12"
 Comp "Benjamin Vedder"
 Comment1 ""
 Comment2 ""
