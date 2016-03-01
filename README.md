@@ -3,6 +3,13 @@ VESC – Open Source ESC
 
 This the Hardware for my open source custom ESC.
 
+## Schematic top level
+![alt tag](design/PNGs/Schematic-1.png)
+
+## Layout -made with KiCad!-
+![alt tag](design/PNGs/layout_4.12.png)
+
+## 3D views
 ![alt tag](design/PNGs/3D_front.png)
 ![alt tag](design/PNGs/3D_back.png)
 
