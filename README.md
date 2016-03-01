@@ -1,10 +1,10 @@
-bldc-hardware
+VESC – Open Source ESC
 =============
 
 This the Hardware for my open source custom ESC.
 
-![alt tag](https://github.com/vedderb/bldc-hardware/raw/master/design/PNGs/3D_front.png)
-![alt tag](https://github.com/vedderb/bldc-hardware/raw/master/design/PNGs/3D_back.png)
+![alt tag](design/PNGs/3D_front.png)
+![alt tag](design/PNGs/3D_back.png)
 
 Update: The BOM is no longer available on google docs, it is included in the design folder as an .ods file.
 
