@@ -1,4 +1,4 @@
-update=tis  2 sep 2014 11:35:26
+update=tor 15 okt 2015 21:55:34
 version=1
 last_client=kicad
 [general]
@@ -32,18 +32,18 @@ ModuleOutlineThickness=0.15
 version=1
 LibDir=Libraries
 [eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=linear
-LibName6=regul
-LibName7=74xx
-LibName8=cmos4000
-LibName9=adc-dac
-LibName10=memory
-LibName11=xilinx
-LibName12=special
+LibName1=BLDC_4-rescue
+LibName2=power
+LibName3=device
+LibName4=transistors
+LibName5=conn
+LibName6=linear
+LibName7=regul
+LibName8=74xx
+LibName9=cmos4000
+LibName10=adc-dac
+LibName11=memory
+LibName12=xilinx
 LibName13=microcontrollers
 LibName14=dsp
 LibName15=microchip
